@@ -29,8 +29,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 // Hashes word to a number
 unsigned int hash( const char *word )
 {
-//    unsigned long int hash = 33;
-    unsigned long int hash = 5381;
+    unsigned long int hash = 1;
+//    unsigned long int hash = 5381;
 
     int c;
     while ( (c = *word++) ) {
