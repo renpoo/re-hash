@@ -34,7 +34,6 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #endif
 
 
-// Hashes word to a number
 unsigned int hash( const char *word )
 {
 //    unsigned long int hash = 33;
