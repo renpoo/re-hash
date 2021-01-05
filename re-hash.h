@@ -27,7 +27,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 
 // Hashes word to a number
-unsigned int hash( const char *word )
+unsigned int re_hash( const char *word )
 {
     unsigned long int hash = 1;
 //    unsigned long int hash = 5381;
