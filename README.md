@@ -24,7 +24,7 @@ unsigned int hash( const char *word )
 
 ## Author
 
-* **Koji Sato** - [GitHub](https://github/renpoo)
+* **Koji Sato (a.k.a. Renpoo Tsukioka)** - [GitHub](https://github/renpoo)
 
 ## License
 
