@@ -5,6 +5,7 @@ Re-Hash is a tiny improvement of the well-known hash function -- djb2 --.
 ## Source Code (Core)
 
 '''
+
 unsigned int hash( const char *word )
 {
     unsigned long int hash = 5381;
@@ -17,6 +18,7 @@ unsigned int hash( const char *word )
     return( hash & HASHSIZEMINUSONE );
 
 }
+
 '''
 
 
