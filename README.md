@@ -4,7 +4,7 @@ Re-Hash is a tiny improvement of the well-known hash function -- djb2 --.
 
 ## Source Code
 
-...
+'''
 
 /*
 re-hash - re-hash.h
@@ -52,7 +52,7 @@ unsigned int hash( const char *word )
 
 #endif /* re_hash_h */
 
-...
+'''
 
 
 ## Author
