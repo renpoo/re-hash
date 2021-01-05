@@ -5,6 +5,7 @@ Re-Hash is a tiny improvement of the well-known hash function -- djb2 --.
 ## Source Code
 
 ...
+
 /*
 re-hash - re-hash.h
 Copyright (c) 2021 Koji Sato (a.k.a. Renpoo Tsukioka)
@@ -50,6 +51,7 @@ unsigned int hash( const char *word )
 }
 
 #endif /* re_hash_h */
+
 ...
 
 
