@@ -35,7 +35,7 @@ unsigned int hash( const char *word )
     int c;
     while ( (c = *word++) ) {
         hash += (hash << 7) + c; // Renpoo's improvement on djb2 (1)
-//        hash += (hash << 8) + (c << 5); // Renpoo's improvement on djb2 (2)
+//        hash += (hash << 8) + (c << 4); // Renpoo's improvement on djb2 (2)
     }
 
     return( hash & HASHSIZEMINUSONE );
