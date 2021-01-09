@@ -21,7 +21,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 
 #ifndef HASHSIZE
-#define HASHSIZE 65536
+//#define HASHSIZE 65536
+#define HASHSIZE 131072
 #define HASHSIZEMINUSONE (HASHSIZE - 1)
 #endif
 
@@ -29,7 +30,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 // Hashes word to a number
 unsigned int re_hash( const char *word )
 {
-    unsigned long int hash = 1;
+//    unsigned long int hash = 1;
+    unsigned long int hash = 37;
 //    unsigned long int hash = 5381;
 
     int c;
