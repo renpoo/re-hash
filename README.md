@@ -8,7 +8,7 @@ Re-Hash is a tiny improvement of the well-known hash function -- djb2 --.
 
 unsigned int re_hash( const char *word )
 {
-    unsigned long int hash = 1;
+    unsigned long int hash = 37;
 
     int c;
     while ( (c = *word++) ) {
